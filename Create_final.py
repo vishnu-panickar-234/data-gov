@@ -140,15 +140,9 @@ class Ui_MainWindow(object):
         self.CV_C_M_1_W2_LE17 = QtWidgets.QLineEdit(self.CV_C_M_1_W2)
         self.CV_C_M_1_W2_LE17.setObjectName("CV_C_M_1_W2_LE17")
         self.CV_C_M_1_W2_GL.addWidget(self.CV_C_M_1_W2_LE17, 1, 3, 1, 1)
-        self.CV_C_M_1_W2_RB2 = QtWidgets.QRadioButton(self.CV_C_M_1_W2)
-        self.CV_C_M_1_W2_RB2.setObjectName("CV_C_M_1_W2_RB2")
-        self.CV_C_M_1_W2_GL.addWidget(self.CV_C_M_1_W2_RB2, 2, 2, 1, 1)
         self.CV_C_M_1_W2_L13 = QtWidgets.QLabel(self.CV_C_M_1_W2)
         self.CV_C_M_1_W2_L13.setObjectName("CV_C_M_1_W2_L13")
         self.CV_C_M_1_W2_GL.addWidget(self.CV_C_M_1_W2_L13, 0, 2, 1, 1)
-        self.CV_C_M_1_W2_RB = QtWidgets.QRadioButton(self.CV_C_M_1_W2)
-        self.CV_C_M_1_W2_RB.setObjectName("CV_C_M_1_W2_RB")
-        self.CV_C_M_1_W2_GL.addWidget(self.CV_C_M_1_W2_RB, 2, 3, 1, 1)
         self.CV_C_M_1_W2_L12 = QtWidgets.QLabel(self.CV_C_M_1_W2)
         self.CV_C_M_1_W2_L12.setObjectName("CV_C_M_1_W2_L12")
         self.CV_C_M_1_W2_GL.addWidget(self.CV_C_M_1_W2_L12, 0, 0, 1, 1)
@@ -161,9 +155,6 @@ class Ui_MainWindow(object):
         self.CV_C_M_1_W2_LE15 = QtWidgets.QLineEdit(self.CV_C_M_1_W2)
         self.CV_C_M_1_W2_LE15.setObjectName("CV_C_M_1_W2_LE15")
         self.CV_C_M_1_W2_GL.addWidget(self.CV_C_M_1_W2_LE15, 0, 3, 1, 1)
-        self.CV_C_M_1_W2_L16 = QtWidgets.QLabel(self.CV_C_M_1_W2)
-        self.CV_C_M_1_W2_L16.setObjectName("CV_C_M_1_W2_L16")
-        self.CV_C_M_1_W2_GL.addWidget(self.CV_C_M_1_W2_L16, 2, 0, 1, 2, QtCore.Qt.AlignHCenter)
         self.CV_C_M_1_vl.addWidget(self.CV_C_M_1_W2)
         self.CV_C_scroll_vl.addWidget(self.CV_C_M_1)
         self.CV_C_M_2 = QtWidgets.QWidget(self.CV_C_scroll)
@@ -312,7 +303,6 @@ class Ui_MainWindow(object):
         self.CV_C_M_3_W12_RB13.setObjectName("CV_C_M_3_W12_RB13")
         self.CV_C_M_3_W12_HL8.addWidget(self.CV_C_M_3_W12_RB13, 0, QtCore.Qt.AlignLeft)
         self.CV_C_M_3_W11_FL5.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.CV_C_M_3_W12)
-
 
         self.CV_C_M_3_W11_L25 = QtWidgets.QLabel(self.CV_C_M_3_W11)
         self.CV_C_M_3_W11_L25.setObjectName("CV_C_M_3_W11_L25")
@@ -887,7 +877,7 @@ class Ui_MainWindow(object):
         self.CV_C_DC_STACK.setObjectName("CV_C_DC_STACK")
 
         self.CV_C_DC_EXIST_PG = QtWidgets.QWidget()
-        #self.CV_C_DC_EXIST_PG.setMaximumSize(QtCore.QSize(16777215, 70))
+        # self.CV_C_DC_EXIST_PG.setMaximumSize(QtCore.QSize(16777215, 70))
         ###########EXIST_PG
         self.CV_C_DC_EXIST_PG.setObjectName("CV_C_DC_EXIST_PG")
         self.CV_C_DC_EXIST_PG_GL = QtWidgets.QGridLayout(self.CV_C_DC_EXIST_PG)
@@ -1064,8 +1054,7 @@ class Ui_MainWindow(object):
         self.CV_C_DC_BOTH_N_RB2.setObjectName("CV_C_DC_BOTH_N_RB2")
         self.CV_C_DC_BOTH_N_1_HL.addWidget(self.CV_C_DC_BOTH_N_RB2)
         self.CV_C_DC_BOTH_E_PG_GL.addWidget(self.CV_C_DC_BOTH_N_1, 3, 2, 1, 1)
-    
-    
+
         self.CV_C_DC_STACK.addWidget(self.CV_C_DC_BOTH_PG)
         self.CV_C_DC_NULL_PG = QtWidgets.QWidget()
         self.CV_C_DC_NULL_PG.setObjectName("CV_C_DC_NULL_PG")
@@ -1099,18 +1088,16 @@ class Ui_MainWindow(object):
         self.CV_C_M_1_W4_L1.setText(_translate("MainWindow", "Date Imported"))
         self.CV_C_M_1_W3_L11.setText(_translate("MainWindow", "CV Description"))
         self.CV_C_M_1_W2_L15.setText(_translate("MainWindow", "JIRA ID "))
-        self.CV_C_M_1_W2_RB2.setText(_translate("MainWindow", "YES"))
         self.CV_C_M_1_W2_L13.setText(_translate("MainWindow", "SMPO Name"))
-        self.CV_C_M_1_W2_RB.setText(_translate("MainWindow", "NO"))
         self.CV_C_M_1_W2_L12.setText(_translate("MainWindow", "PD Scheduled"))
         self.CV_C_M_1_W2_L14.setText(_translate("MainWindow", "Priority No"))
-        self.CV_C_M_1_W2_L16.setText(_translate("MainWindow", "CV Acknowledged by GNA and PO"))
         self.CV_C_M_2_W6_L17.setText(_translate("MainWindow", "Creates new data field"))
         self.CV_C_M_2_W7_RB4.setText(_translate("MainWindow", "YES"))
         self.CV_C_M_2_W7_RB3.setText(_translate("MainWindow", "NO"))
         self.CV_C_M_2_W6_L18.setText(_translate("MainWindow", "Creates new data values in existing fields"))
         self.CV_C_M_2_W6_L19.setText(_translate("MainWindow", "Sourced from external vendor"))
-        self.CV_C_M_2_W6_L20.setText(_translate("MainWindow", "Creates data but network is only involved as a pass through"))
+        self.CV_C_M_2_W6_L20.setText(
+            _translate("MainWindow", "Creates data but network is only involved as a pass through"))
         self.CV_C_M_2_W8_RB5.setText(_translate("MainWindow", "YES"))
         self.CV_C_M_2_W8_RB6.setText(_translate("MainWindow", "NO"))
         self.CV_C_M_2_W9_RB7.setText(_translate("MainWindow", "YES"))
@@ -1127,12 +1114,15 @@ class Ui_MainWindow(object):
         self.CV_C_M_4_DG_Q.setText(_translate("MainWindow", "DG Questionaire"))
         self.CV_C_SUBMIT_B.setText(_translate("MainWindow", "SUBMIT"))
         self.CV_C_M_4_W19_L36.setText(_translate("MainWindow", "DATA Lineage"))
-        self.CV_C_M_4_W19_L46.setText(_translate("MainWindow", "Did we map out or create a process for propagating data to DW"))
+        self.CV_C_M_4_W19_L46.setText(
+            _translate("MainWindow", "Did we map out or create a process for propagating data to DW"))
         self.CV_C_M_4_W19_L43.setText(_translate("MainWindow", "Did we identify all downstream applications"))
         self.CV_C_M_4_W19_L44.setText(_translate("MainWindow", "Did we engage DNA and Data Warehouse"))
         self.CV_C_M_4_W19_L42.setText(_translate("MainWindow", "Did we do any end to end data impact analysis"))
-        self.CV_C_M_4_W19_L45.setText(_translate("MainWindow", "Did we create flowchart of how data traverses for this initiative"))
-        self.CV_C_M_4_W19_L47.setText(_translate("MainWindow", "Documented source to target mapping between producer and consumer"))
+        self.CV_C_M_4_W19_L45.setText(
+            _translate("MainWindow", "Did we create flowchart of how data traverses for this initiative"))
+        self.CV_C_M_4_W19_L47.setText(
+            _translate("MainWindow", "Documented source to target mapping between producer and consumer"))
         self.CV_C_M_4_W22_RB53.setText(_translate("MainWindow", "YES"))
         self.CV_C_M_4_W22_RB54.setText(_translate("MainWindow", "NO"))
         self.CV_C_M_4_W22_RB45.setText(_translate("MainWindow", "YES"))
@@ -1154,7 +1144,8 @@ class Ui_MainWindow(object):
         self.CV_C_M_4_W24_RB70.setText(_translate("MainWindow", "DW"))
         self.CV_C_M_4_W16_L31.setText(_translate("MainWindow", "Data Classification"))
         self.CV_C_M_4_W16_L40.setText(_translate("MainWindow", "Is the data element tokenized in upstream"))
-        self.CV_C_M_4_W16_L39.setText(_translate("MainWindow", "Did we define or identify data that can be critical data elements"))
+        self.CV_C_M_4_W16_L39.setText(
+            _translate("MainWindow", "Did we define or identify data that can be critical data elements"))
         self.CV_C_M_4_W16_L38.setText(_translate("MainWindow", "Did we define or identify data that can be classified"))
         self.CV_C_M_4_W16_L47.setText(_translate("MainWindow", "Can the data elements be de-tokenized"))
         self.CV_C_M_4_W17_RB41.setText(_translate("MainWindow", "YES"))
@@ -1165,7 +1156,8 @@ class Ui_MainWindow(object):
         self.CV_C_M_4_W17_RB38.setText(_translate("MainWindow", "NO"))
         self.CV_C_M_4_W17_RB33.setText(_translate("MainWindow", "YES"))
         self.CV_C_M_4_W17_RB36.setText(_translate("MainWindow", "NO"))
-        self.CV_C_M_4_W20_L51.setText(_translate("MainWindow", "If yes from above where were they defined & implemented"))
+        self.CV_C_M_4_W20_L51.setText(
+            _translate("MainWindow", "If yes from above where were they defined & implemented"))
         self.CV_C_M_4_W20_L50.setText(_translate("MainWindow", "Defined data quality rules"))
         self.CV_C_M_4_W20_L49.setText(_translate("MainWindow", "Data steward engaged in identifying opportunities"))
         self.CV_C_M_4_W20_L52.setText(_translate("MainWindow", "Were there any CDE\'s identified upstream"))
